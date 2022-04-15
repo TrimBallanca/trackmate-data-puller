@@ -1,0 +1,25 @@
+{
+  "name": "trackmate-data-puller",
+  "version": "1.0.0",
+  "description": "pulls data from trackmate",
+  "main": "native-https.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "trackmate-data-pull"
+  },
+  "keywords": [
+    "trackmate",
+    "gps",
+    "data",
+    "scraper"
+  ],
+  "author": "Trim Ballanca",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "mongodb": "^4.5.0"
+  }
+}
